@@ -1,2 +1,2 @@
 ﻿  ConsoleApplication1.cpp
-  ConsoleApplication1.vcxproj -> C:\Users\night\OneDrive\Documentos\Introduccion al Desarrollo de Software\Tareas\Numeros Primos\ConsoleApplication1\x64\Debug\ConsoleApplication1.exe
+C:\Users\night\OneDrive\Documentos\Introduccion al Desarrollo de Software\Tareas\Numeros Primos\ConsoleApplication1\ConsoleApplication1.cpp(29,1): error C2059: error de sintaxis: '}'

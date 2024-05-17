@@ -4,20 +4,26 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-int main()
+int numPrimo(int);
 
-    {
-        int n, i, x;
-        printf("Introduce Limite Superior\n");
-        scanf_s("%d", &n);
-        printf("Introduce Limite Inferior\n");
-        scanf_s("%d", &x);
-        for (i = x; i <= n; i++)
-        {
-            printf("\n%d", i);
-        }
-        return 0;
+int main() {
+    int min, max;
+    printf("Introduce el inicio del rango: ");
+    scanf_s("%d", &min);
+    printf("Introduce el fin del rango: ");
+    scanf_s("%d", &max);
+
+    printf("Números primos en el rango [%d, %d]: ", min, max);
+    for (int i = min; i <= max; ++i) {
+
     }
 
+    return 0;
+}
 
-
+int numPrimo(int numero) {
+    if (numero <= 1) {     //Aqui es donde negamos los negativos, los numeros no pueden ser 1 ni algo menor a este.
+        return(0);
+    }
+    for(int i=2;i*i<=numero; ++i)
+}
