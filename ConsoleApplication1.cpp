@@ -12,9 +12,9 @@ int main() {
     do {
 
 
-        printf("Introduce el inicio del rango:\n");
+        printf("Introduce el limite inferior:\n");
         scanf_s("%d", &min);
-        printf("Introduce el fin del rango:\n");
+        printf("Introduce el limite superior:\n");
         scanf_s("%d", &max);
 
         printf("Los numeros primos entre %d y %d son: ", min, max);
@@ -47,3 +47,4 @@ int numPrimo(int numero) {
     return 1;             //Pero si no, nos devulve un true, diciendonos que si es un numero primo.
     }
 
+//uUn numero dado no tendrá divisores mayores que su raíz cuadrada.
