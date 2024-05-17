@@ -1,2 +1,10 @@
 ﻿  ConsoleApplication1.cpp
-C:\Users\night\OneDrive\Documentos\Introduccion al Desarrollo de Software\Tareas\Numeros Primos\ConsoleApplication1\ConsoleApplication1.cpp(29,1): error C2059: error de sintaxis: '}'
+C:\Users\night\OneDrive\Documentos\Introduccion al Desarrollo de Software\Tareas\Numeros Primos\ConsoleApplication1\ConsoleApplication1.cpp(29,17): warning C4473: "scanf_s": no se pasaron suficientes argumentos para la cadena de formato
+  C:\Users\night\OneDrive\Documentos\Introduccion al Desarrollo de Software\Tareas\Numeros Primos\ConsoleApplication1\ConsoleApplication1.cpp(29,17):
+  los marcadores de posición y sus parámetros esperan 2 argumentos variádicos, pero se proporcionaron 1
+  C:\Users\night\OneDrive\Documentos\Introduccion al Desarrollo de Software\Tareas\Numeros Primos\ConsoleApplication1\ConsoleApplication1.cpp(29,17):
+  el argumento variádico 2 que falta es requerido por la cadena de formato '%c'
+  C:\Users\night\OneDrive\Documentos\Introduccion al Desarrollo de Software\Tareas\Numeros Primos\ConsoleApplication1\ConsoleApplication1.cpp(29,17):
+  este argumento se utiliza como un tamaño de búfer
+  
+  ConsoleApplication1.vcxproj -> C:\Users\night\OneDrive\Documentos\Introduccion al Desarrollo de Software\Tareas\Numeros Primos\ConsoleApplication1\x64\Debug\ConsoleApplication1.exe
